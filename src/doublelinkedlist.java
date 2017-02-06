@@ -30,7 +30,22 @@ public class doublelinkedlist {
 		//INSERT NODE WILL RETURN HEAD AND PRINT NODE DATA WILL PRINT IT
 		printNodeData(insertNode(nodeA,pos));		
 		
-		
+		/*
+		// reverse a link list ALGORITHM
+		Node currNode = nodeA;
+		Node nextNode = null;
+		Node prevNode = null;
+
+		while(currNode!=null){
+			nextNode = currNode.getNextNode();
+			currNode.setNextNode(prevNode);
+			prevNode = currNode;
+			currNode = nextNode;
+		}
+		nodeA = prevNode;
+	       
+	       printNodeData(nodeA);
+		*/
 		
 	}
 	
